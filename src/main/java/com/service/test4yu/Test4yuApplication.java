@@ -7,5 +7,6 @@ public class Test4yuApplication {
     public static void main(String[] args) throws Exception {
         Log4jUtils.init();
         BeanUtils.init();
+        System.println("hello, test!");
     }
 }
